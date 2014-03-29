@@ -1,19 +1,19 @@
-ÔõÃ´Ê¹ÓÃ£º
+æ€ä¹ˆä½¿ç”¨ï¼š
 
-Ò»   ·şÎñ¶Ë
-	   1 ÖÆ¶¨Òªµ¼³öµÄ½Ó¿Ú,²¢½«ÄãµÄ½Ó¿Ú´ò°üÌá¹©¸ø¿Í»§¶Ë£¬Èç:
+ä¸€   æœåŠ¡ç«¯
+	   1 åˆ¶å®šè¦å¯¼å‡ºçš„æ¥å£,å¹¶å°†ä½ çš„æ¥å£æ‰“åŒ…æä¾›ç»™å®¢æˆ·ç«¯ï¼Œå¦‚:
 	      interface TestServiceItf {
 	         void add(int a,int b);
 	        }
-	   2 Ìá¹©Ò»¸ö·şÎñ¶ËÊµÏÖ
+	   2 æä¾›ä¸€ä¸ªæœåŠ¡ç«¯å®ç°
 	   
-	   3 ´´½¨Ò»¸öRPCService¶ÔÏóRPCService app = new RPCService(1082);
+	   3 åˆ›å»ºä¸€ä¸ªRPCServiceå¯¹è±¡RPCService app = new RPCService(1082);
 	   
-	   4 µ¼³öÄãµÄ·şÎñapp.exportService("test", new TestService());
+	   4 å¯¼å‡ºä½ çš„æœåŠ¡app.exportService("test", new TestService());
 	   
-	   5 µ÷ÓÃRPCService.run()
+	   5 è°ƒç”¨RPCService.run()
    
-   ²Î¼û:
+   å‚è§:
   com.lesen.rpc.example.ServiceTest
   
     package com.lesen.rpc.example;
@@ -28,7 +28,7 @@
 			app.run();
 		}
 	}
-¶ş ¿Í»§¶Ë
+äºŒ å®¢æˆ·ç«¯
    com.lesen.rpc.example.ClientTest
    
         package com.lesen.rpc.example;
